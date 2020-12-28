@@ -1,0 +1,25 @@
+{
+  "name": "css-tooling-starter",
+  "version": "1.0.0",
+  "description": "modern tooling setup for html/css projects",
+  "main": "index.html",
+  "scripts": {
+    "watch": "parcel watch ./index.html",
+    "start": "parcel serve ./index.html",
+    "build": "parcel build ./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravona/css-tooling-starter.git"
+  },
+  "author": "Asaf Ravona",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ravona/css-tooling-starter/issues"
+  },
+  "homepage": "https://github.com/ravona/css-tooling-starter#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.30.0"
+  }
+}
